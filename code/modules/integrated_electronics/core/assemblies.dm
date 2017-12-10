@@ -36,6 +36,48 @@
 	max_components = IC_COMPONENTS_BASE * 1.5
 	max_complexity = IC_COMPLEXITY_BASE * 1.5
 
+/obj/item/device/electronic_assembly/backrig
+	name = "electronic back-rig"
+	desc = "A back mounted rig used to encase medium-sized electronics."
+	icon = 'icons/obj/electronic_assemblies.dmi'
+	icon_state = "setup_backrig"
+	slot_flags = SLOT_BACK
+	w_class = ITEMSIZE_LARGE
+	max_components = IC_COMPONENTS_BASE * 3
+	max_complexity = IC_COMPLEXITY_BASE * 3
+
+
+
+/obj/item/device/electronic_assembly/chestrig
+	name = "electronic chest-rig"
+	desc = "A chest mounted rig used to encase medium-sized electronics, provides some defence."
+	icon_state = "setup_chestrig"
+	slot_flags = SLOT_SUIT
+	w_class = ITEMSIZE_LARGE
+	max_components = IC_COMPONENTS_BASE * 3
+	max_complexity = IC_COMPLEXITY_BASE * 3
+
+/obj/item/device/electronic_assembly/headrig
+	name = "electronic head-rig"
+	desc = "A helmet mounted rig used to encase small electronics, provides some protection."
+	icon_state = "setup_headrig"
+	slot_flags = SLOT_HEAD
+	w_class = ITEMSIZE_NORMAL
+	max_components = IC_COMPONENTS_BASE * 2
+	max_complexity = IC_COMPLEXITY_BASE * 2
+
+//Not done yet.
+/*/obj/item/device/electronic_assembly/gauntlets
+	name = "electronic gauntlets"
+	desc = "A bulky pair of gauntlets capable of encasing small electronics, provides some protection."
+	icon_state = ""
+	slot_flags = SLOT_GLOVES
+	w_class = ITEMSIZE_NORMAL
+	max_components = IC_COMPONENTS_BASE * 2
+	max_complexity = IC_COMPLEXITY_BASE * 2*/
+
+
+
 /obj/item/device/electronic_assembly/implant
 	name = "electronic implant"
 	icon_state = "setup_implant"
